@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hib-s Victorian Museum</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Lora&display=swap');
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: #fff0f5;
+            font-family: 'Lora', serif;
+            color: #4a0e1c;
+        }
+
+        header {
+            background-color: #ffc0cb;
+            text-align: center;
+            padding: 2rem;
+            border-bottom: 3px solid #4a0e1c;
+        }
+
+        h1 {
+            color: #4a0e1c;
+            font-family: 'Playfair Display', serif;
+            font-size: 2.5rem;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.1);
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+
+        h2 {
+            font-family: 'Playfair Display', serif;
+            color: #4a0e1c;
+            margin-bottom: 1rem;
+        }
+
+        p {
+            line-height: 1.6;
+            margin-bottom: 1rem;
+        }
+
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 2rem;
+            justify-content: center;
+        }
+
+        .exhibit {
+            background-color: white;
+            border: 2px solid #ffc0cb;
+            border-radius: 10px;
+            padding: 1.5rem;
+            width: calc(50% - 1rem);
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+
+        .exhibit img {
+            max-width: 100%;
+            height: auto;
+            border: 3px solid #ffc0cb;
+            margin-bottom: 1rem;
+        }
+
+        .exhibit h3 {
+            color: #4a0e1c;
+            border-bottom: 1px solid #ffc0cb;
+            padding-bottom: 0.5rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .abstract-painting {
+            background-color: #fff;
+            padding: 2rem;
+            text-align: center;
+            margin-top: 2rem;
+            border: 2px solid #ffc0cb;
+            border-radius: 10px;
+        }
+
+        .abstract-painting img {
+            max-width: 100%;
+            border: 3px solid #ffc0cb;
+        }
+
+        footer {
+            text-align: center;
+            padding: 1rem;
+            background-color: #ffc0cb;
+            color: #4a0e1c;
+            border-top: 3px solid #4a0e1c;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>hib-s Victorian Museum</h1>
+    </header>
+    <div class="container">
+        <h2>Welcome to our Victorian-inspired virtual museum!</h2>
+        <p>Step back in time and explore our collection of art, history, and culture from the Victorian era.</p>
+        <div class="gallery">
+            <div class="exhibit">
+                <img src="image1.jpg" alt="Artwork 1">
+                <h3>Exhibit 1</h3>
+                <p>Description of Exhibit 1 goes here.</p>
+            </div>
+            <div class="exhibit">
+                <img src="image2.jpg" alt="Artwork 2">
+                <h3>Exhibit 2</h3>
+                <p>Description of Exhibit 2 goes here.</p>
+            </div>
+            <!-- Add more exhibits as needed -->
+        </div>
+        <div class="abstract-painting">
+            <h2>Featured Abstract Painting</h2>
+            <img src="abstract_painting.jpg" alt="Abstract Painting">
+            <p>A modern twist on Victorian aesthetics.</p>
+        </div>
+    </div>
+    <footer>
+        &copy; 2024 hib-s Victorian Museum
+    </footer>
+</body>
+</html>
